@@ -1,0 +1,205 @@
+*{margin: 0; padding: 0}
+
+.header{background: #4169E1}
+
+.header .container{
+	display: flex;
+	width: 980px;
+	margin: auto;
+}
+
+.header .container .logo{
+	margin-right: 50px;
+}
+
+.header .container .logo img{
+	width: 80px;
+	margin-top: 10px;
+}
+
+.header .container .menu{
+	flex-grow: 1;
+	margin-top: 10px;
+}
+.header .container .menu ul{
+	list-style: none;
+	display: flex;
+}
+
+.header .container .menu ul li{
+	flex-grow: 1;
+	text-align: center;
+	line-height: 80px;
+}
+
+.header .container .menu ul li a{
+	color: #00FA9A;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+}
+
+.header .container .menu ul li a:hover{
+	background: #00FA9A;
+	color: #DDA0DD;
+	display: block;
+}
+ 
+.slider img{
+	width: 100%
+}
+
+.support{
+	background: #87CEEB
+}
+
+.support .text{
+	text-align: center;
+	width: 980px;
+	margin: auto;
+	padding: 20px 0;
+}
+
+.support .text p{
+	font-size: 24px;
+	color: #663399;
+	line-height: 40px;
+	margin-bottom: 20px;
+}
+
+.support .text a{
+	display: block;
+	width: 200px;
+	background: #DDA0DD;
+	margin: auto;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color: #FF0000;
+}
+
+.support .text a:hover{
+	background: #FFFAFA;
+	color: #4169E1
+}
+
+.content{
+	width: 980px;
+	margin: auto;
+	display: flex;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.content .box{
+	padding: 10px;
+}
+
+.content h3{
+	font-size: 36px;
+	margin: 15px;
+}
+
+.content p{
+	font-size: 18px;
+	margin: 10px 0;
+	text-align: justify;
+}
+
+.content a{
+	padding: 15px;
+	display: inline-block;
+	border:1px solid #FA8072;
+	margin: 10px 0;
+	color: #C71585;
+	border-radius: 10px;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.content a:hover{
+	background: #BA55D3;
+	color: #F5FFFA
+}
+
+.team{
+	display: flex;
+	width: 980px;
+	margin: auto;
+	padding: 20px;
+	margin-top: 20px
+}
+
+.team .box{
+	text-align: center;
+	margin: 0 10px;
+	background: #00008B;
+	color: #FFF8DC;
+	padding: 5px;
+}
+
+.team .box img{
+	display: inline-block;
+	width: 150px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.team a{
+	padding: 10px 15px;
+	background: #FF7F50;
+	display: inline-block;
+	margin: 20px 0;
+	color: #F8F8FF;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 14px
+}
+
+.team a:hover{
+	background: #F8F8FF;
+	color: #008000
+}
+
+.team h3{
+	margin-bottom: 10px
+}
+
+.team img{
+	margin-bottom: 10px
+}
+
+.follow{
+	background: #696969;
+	margin-top: 20px;
+}
+
+.follow .text{
+	width: 980px;
+	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
+
+.follow h2{
+	margin-bottom: 10px;
+	font-size: 36px
+}
+
+.follow p{
+	margin-bottom: 10px;
+	font-size: 18px
+}
+
+.follow i{
+	color: #00008B;
+	font-size: 40px
+}
+
+.footer{
+	text-align: center;
+	background: #00CED1;
+	color: #FFFFF0;
+	padding: 20px 0;
+}
