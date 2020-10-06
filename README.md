@@ -1,4 +1,4 @@
-# Latihan-HTML-CSS
+# HTML-CSS Landing Page
 View Header
 ![01](https://user-images.githubusercontent.com/61085159/95155306-0ee4fa00-07be-11eb-9405-d777060c7332.png)
 
